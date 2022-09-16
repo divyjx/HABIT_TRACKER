@@ -1,1 +1,1 @@
-this is place for local documentation
+informal overall working of project
