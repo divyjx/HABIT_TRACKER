@@ -1,1 +1,1 @@
-informal overall working of project
+something about project
