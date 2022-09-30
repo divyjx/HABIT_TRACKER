@@ -44,7 +44,7 @@ if (isset($_SESSION["user_id"])) {
                 <span style="font-size: 25px;">
                     <a href='index.html'>HABIT TRACKER</a>  
                 </span>
-                <button style = "padding: 0;" onclick="myFun()"><img src="threedash.png" style="width: 20;height: 20;" >
+                <button  onclick="myFun()"><img src="threedash.png" style="width: 20px;height: 20px;padding-inline: 0px; margin-inline: 0px; " >
                 </button>
                 
                 <span  >
@@ -127,7 +127,7 @@ if (isset($_SESSION["user_id"])) {
         <div class="home_footer">
             <hr>
             <a href="#id_home_aboutus">About Us</a>
-            <a href="#top" ><img src = "uparrow.png" style="float: right;width:15;height: 15;margin: 0; padding: 0;"></a>
+            <a href="#top" ><img src = "uparrow.png" style="float: right;width:20px;height: 20px;margin: 0px; padding: 0px;"></a>
             <br>
             <a href="#id_home_blogs">Blogs and Motivation</a> <br>
             <a href="#id_home_getstarted">Get Started</a> <br>
