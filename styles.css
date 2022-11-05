@@ -1,0 +1,54 @@
+* {
+    color: white;
+    font-family: Arial;
+}
+h1{
+    font-size: 3em;
+}
+a{
+    color: white;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.home_button{
+    margin-right: 10px;
+}
+p{
+    font-size: 30px;
+}
+h3{
+    font-size: 40px;
+}
+body{
+    background-color: rgba(0,0,100,.6);
+    background-blend-mode: multiply;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+input {
+    color: black;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #A2B5BB;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background-color: rgba(0, 255, 255, .3);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 32px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: rgba(0, 255, 255, .6)
+}
+div{
+    padding: 20px;
+}
+label{
+    font-size: 24px;
+}
