@@ -1,4 +1,4 @@
-# SSL_PROJECT
+# Habit Tracker 
 
 Habit Tracker setup
 
