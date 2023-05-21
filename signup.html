@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker | SignUp</title>
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+        * {
+            vertical-align: middle;
+            font-size: 40px;
+        }
+
+        button {
+            background-color: #222831;
+            font-weight: bold;
+            border: 2px solid white;
+            padding: 2px;
+        }
+
+        button:hover {
+            background-color: #00ADB5;
+        }
+
+        table {
+            margin-top: 5%;
+            margin-bottom: auto;
+            margin-left: 25%;
+            margin-right: auto;
+        }
+
+        td {
+            text-align: left;
+            padding: 30px;
+            margin: 30px
+        }
+
+        input {
+            font-size: 40px;
+            border: none;
+            border-radius: 2%;
+            color: white;
+            background-color: rgb(44 65 95 / 60%);
+        }
+
+        input:hover {
+            background-color: rgb(70 70 95 / 60%);
+        }
+
+        #signup_button {
+            background-color: transparent;
+        }
+
+        #signup_button:hover {
+            background-color: rgb(70 70 95 / 60%);
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+
+    <form action="process_signup.php" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="username">Username</label>
+                </td>
+                <td>
+                    <input type="text" id="username" name="username" pattern="[a-zA-Z0-9]*" required>
+                </td>
+            </tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" required>
+            </td>
+            </tr>
+            <tr>
+                <td> <label for="password">Password</label> </td>
+                <td><input type="password" name="password" id="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="password_confirmation">Confirm Password</label></td>
+                <td><input type="password" name="password_confirmation" id="password_confirmation" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"> <input type="submit" id="signup_button" value="Sign Up"> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

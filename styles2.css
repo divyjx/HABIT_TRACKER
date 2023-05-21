@@ -1,0 +1,95 @@
+*{
+    color: #EEEEEE;
+    font-size: 30px;
+    font-family: Arial;
+}
+.main_body{
+    margin-top:25px ;
+    margin-inline:150px ;
+}
+html{
+    scroll-behavior: smooth;
+}
+.home_button{
+    margin-right: 10px;
+    position:right;
+    float: right;
+    border-radius : 5px;
+    padding: 2px;
+}
+.home_header,.home_footer,#id_home_menu{
+    background-size: cover;
+    padding: 10px;
+    border-radius: 40px;
+}
+.home_aboutus, .home_blogs, .home_getstarted, .home_contactus{
+    background-color: rgba(0,0,0, 0.3);
+    background-blend-mode: multiply;
+    background-color: linear-gradient(#27f58ccc);
+}
+body{
+    background-color: rgba(0,0,0, 0.4);
+    background-blend-mode: multiply;
+    background-image: url('back2.jpg');
+    padding: 0%;
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    background-color: rgb(34, 40, 49, .6);
+}
+h3{
+    color: #EEEEEE;
+    font-size: 40px;
+}
+div{
+    padding: 20px;
+}
+button{
+    background-color: transparent;
+    font-weight: bold;
+    position: right;
+    float: right;
+    border-radius: 10px;
+    padding: 2px;
+}
+button:hover{
+    background-color: rgb(34, 40, 49, .6);
+}
+.left_button:hover, .right_button:hover{
+    background-color: rgb(34, 40, 49, .6);
+}
+input {
+    color: black;
+    border-radius: 4px;
+    background-color: #A2B5BB;
+    font-size: 24px;
+}
+li{
+    font-weight: bold;
+}
+#id_home_getstarted{
+    margin-inline:90px;
+}
+#threedash{
+    width: 24px;
+    height: 24px;
+}
+table{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+th{
+    font-weight: bold;
+    text-align: center;
+}
+.gs_image{
+    border-radius:50% ;
+}
